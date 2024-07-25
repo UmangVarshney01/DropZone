@@ -1,6 +1,6 @@
 
-const endPoint= "localhost";
-const port= 9000;
+const endPoint= "[give endpoint]";
+const port= "[give port number]";
 const useSSL= false; 
 const accessKey= "[give your access key here]";
 const secretKey= "[give your secret key here]";

@@ -1,7 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import DZ from '$lib/images/dz.png';
-	import mine from '$lib/images/my.png';
+	
 </script>
 
 <header>
