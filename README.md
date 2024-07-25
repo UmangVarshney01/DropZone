@@ -1,59 +1,58 @@
-# DropZone App
+# Dropzone App
 
 
 A simple and efficient file upload and management application using SvelteKit and MinIO.
 
 ## Features
 
-```bash
-# Drag and drop file upload
-# View and deselect selected files before upload
-# File preview
-# File download and delete functionality
-# MinIO integration for storage
-```
+- Drag and drop file upload
+- View and deselect selected files before upload
+- File preview
+- File download and delete functionality
+- MinIO integration for storage
+
 
 ## Prerequisites
 
-```bash
-# Node.js
-# MinIO
-```
+
+- Node.js
+- MinIO
+
 
 ## Dependencies
 
-```bash
-# express
-# Minio
-# cors
-# multer
-```
+- express
+- Minio
+- cors
+- multer
+
 ## Installation
-```bash
-# Unzip the DropZone file.
-# Open DropZone folder in the IDE like:VSCode
+ ```bash
+git clone https://github.com/UmangVarshney01/DropZone.git.
+cd DropZone
 ```
 
+
 ## Install dependencies:
+
 ```bash
 npm install
 ```
 
 ## Set up MinIO:
-```bash
-# Install MinIO server if not already installed.
-# Open the command promt go where you download the minio.exe. 
-# Run command 'minio.exe server "path of the location where you want to store or get the bucket"'
-# Configure MinIO with access key and secret key.
-```
+
+1. Install MinIO server if not already installed.
+2. Open the command promt go where you download the minio.exe. 
+3. Run command 'minio.exe server "path of the location where you want to store or get the bucket"'
+4. Configure MinIO with access key and secret key.
+
 
 ## Configure environment variables:
-```bash
-# Go to the "//src//lib//properties//minioRequirements.js".
-# Provide endPoint, port, accessKey, secretKey and bucketName.
 
-# You can also provide port for sever by visiting "//src//lib//properties//serverHost.js".
-```
+- Go to the "//src//lib//properties//minioRequirements.js".
+- Provide endPoint, port, accessKey, secretKey and bucketName.
+- Go to the "//src//lib//properties//serverHost.js".
+- Provide port and server name. 
 
 ## Run in development mode:
 ```bash
